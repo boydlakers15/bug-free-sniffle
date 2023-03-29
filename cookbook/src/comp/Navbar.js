@@ -20,7 +20,7 @@ export default function Navbar() {
         <nav className='nav'>
           <div>
             <Link to='/' className='nav-logo'>
-              <i className={`fas fa-home-alt nav-logo-icon`}></i>
+              <img className='imgLogo' src='https://lh3.googleusercontent.com/4J_jKyi_MjEp4_7z-MQJaWPMAOHljF3ScNrXKzAtuyt06aEVAbXVRASPraoz8-_c9y5A6uWDWiuAyRNn8cLsqvS-ZwSpcVVCVuZEYaqL' />
               <span className='nav-logo-name'>Homepage</span>
             </Link>
 
