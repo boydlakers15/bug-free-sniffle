@@ -1,10 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>Welcome to the home page!</p>
+      <Navbar/>
+      
     </div>
   );
 }

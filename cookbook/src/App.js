@@ -18,12 +18,12 @@ function App() {
     
     <BrowserRouter>
       <div>
-        <Navbar />
+       
 
         <Routes>
-          <Route exact path="/Home" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
       </div>
     </BrowserRouter>

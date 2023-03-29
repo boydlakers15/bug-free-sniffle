@@ -37,7 +37,7 @@ body{
 }
 :root {
     --header-height: 4rem;
-    --nav-width: 68px;
+    --nav-width: 75px;
   
     --first-color: #42d7e2;
     --first-color-alt: #101111;
@@ -76,7 +76,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--white-color);
+    background: linear-gradient(to right, rgba(77, 221, 240, 0.5), rgba(65, 241, 133, 0.5));
     padding: 0 1rem;
     transition: 0.5s;
   }
@@ -93,7 +93,7 @@ body{
     left: -30%;
     height: 100vh;
     width: var(--nav-width);
-    background-color: var(--first-color);
+    background: linear-gradient(to right, rgba(77, 221, 240, 0.5), rgba(65, 241, 133, 0.5));
     padding-top: 1rem;
     transition: 0.5s;
   }
