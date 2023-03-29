@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from './comp/Home';
 import About from './comp/About';
 import Contact from './comp/Contact';
-import Navbar from './comp/Navbar';
+import Recipes from './comp/Recipes';
+
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/Recipes" element={<Recipes/>} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -24,12 +24,12 @@ export default function Navbar() {
             </Link>
 
             <div className='nav-list'>
-              <Link to='/dashboard' className='nav-link active'>
-                <i className='fas fa-tachometer-alt nav-link-icon'></i>
-                <span className='nav-link-name'>Dashboard</span>
+              <Link to='/Recipes' className='nav-link active'>
+              <i class="fa fa-list-alt" aria-hidden="true"></i>
+                <span className='nav-link-name'>Recipes</span>
               </Link>
               <Link to='/Contact' className='nav-link'>
-                <i className='fas fa-image nav-link-icon'></i>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span className='nav-link-name'>Contact</span>
               </Link>
               <Link to='/About' className='nav-link'>
