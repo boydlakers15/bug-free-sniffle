@@ -1,33 +1,27 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
-
-body{
- 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(yellow.jpg);
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-Form{ 
-
-  color:white;
-  background-color: rgba(53, 45, 45, 0.5);
- 
+form {
+	color: white;
+	background-color: rgba(53, 45, 45, 0.5);
 }
-.container Form{
-
-  padding: 10px;
+.container Form {
+	padding: 10px;
 }
-.rw{
-  margin-top: 7px;
-  height: 200px;
+.rw {
+	margin-top: 7px;
+	height: 200px;
 }
-.footerr{
-  margin-top: 220px;
-  background-color: rgba(26, 24, 24, 0.959);  
-  color : yellow;
+.footerr {
+	margin-top: 220px;
+	background-color: rgba(26, 24, 24, 0.959);
+	color: yellow;
 }
-.sidebar{
-float: left;
+.sidebar {
+	float: left;
 }
