@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import {useState} from 'react';
+
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -54,3 +56,16 @@ export default function Navbar() {
     
 
 }
+
+// export default function Navbar() {
+//   return (
+
+//   <nav className="nav">
+//     <p className="section"><img className='img' src='https://img.freepik.com/free-vector/restaurant-logo_23-2147506959.jpg?w=360'></img><br/>Recipes</p>
+    
+
+//   </nav>
+//   )
+  
+
+// }

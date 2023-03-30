@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+// import Navbar from './Navbar';
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -19,6 +20,7 @@ export default function Home() {
       <aside className={`sidebar ${show ? 'show' : null}`}>
         <nav className='nav'>
           <div>
+           
             <Link to='/Home' className='nav-logo'>
               <img className='imgLogo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Whole_Foods_Market_201x_logo.svg/2048px-Whole_Foods_Market_201x_logo.svg.png' />
               <span className='nav-logo-name'>Homepage</span>
@@ -55,3 +57,15 @@ export default function Home() {
     
 
 }
+// import React from 'react';
+
+// function Home() {
+//   return (
+//     <div>
+//       <h1>Home Page</h1>
+//       <p>Welcome to the home page!</p>
+//     </div>
+//   );
+// }
+
+// export default Home;
