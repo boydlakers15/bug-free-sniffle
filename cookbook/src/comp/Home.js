@@ -20,7 +20,6 @@ export default function Home() {
       <aside className={`sidebar ${show ? 'show' : null}`}>
         <nav className='nav'>
           <div>
-            
             <Link to='/Home' className='nav-logo'>
               <img className='imgLogo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Whole_Foods_Market_201x_logo.svg/2048px-Whole_Foods_Market_201x_logo.svg.png' />
               <span className='nav-logo-name'>Homepage</span>
@@ -36,8 +35,8 @@ export default function Home() {
                 <span className='nav-link-name'>Contact</span>
               </Link>
               <Link to='/About' className='nav-link'>
-                <i className='fas fa-dollar-sign nav-link-icon'></i>
-                <span className='nav-link-name'>Transaction</span>
+              <i class="fa-solid fa-user-secret"></i>
+                <span className='nav-link-name'>Profile</span>
               </Link>
             </div>
           </div>
@@ -57,3 +56,15 @@ export default function Home() {
     
 
 }
+// import React from 'react';
+
+// function Home() {
+//   return (
+//     <div>
+//       <h1>Home Page</h1>
+//       <p>Welcome to the home page!</p>
+//     </div>
+//   );
+// }
+
+// export default Home;
