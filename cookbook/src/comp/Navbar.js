@@ -35,7 +35,7 @@ export default function Navbar() {
                 <span className='nav-link-name'>Contact</span>
               </Link>
               <Link to='/About' className='nav-link'>
-                <i className='fas fa-dollar-sign nav-link-icon'></i>
+              <i class="fa-solid fa-user-secret"></i>
                 <span className='nav-link-name'>Profile</span>
               </Link>
             </div>
