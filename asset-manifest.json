@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bug-free-sniffle/static/css/main.31c08d60.css",
-    "main.js": "/bug-free-sniffle/static/js/main.6dba070d.js",
+    "main.js": "/bug-free-sniffle/static/js/main.f103e65a.js",
     "index.html": "/bug-free-sniffle/index.html",
     "main.31c08d60.css.map": "/bug-free-sniffle/static/css/main.31c08d60.css.map",
-    "main.6dba070d.js.map": "/bug-free-sniffle/static/js/main.6dba070d.js.map"
+    "main.f103e65a.js.map": "/bug-free-sniffle/static/js/main.f103e65a.js.map"
   },
   "entrypoints": [
     "static/css/main.31c08d60.css",
-    "static/js/main.6dba070d.js"
+    "static/js/main.f103e65a.js"
   ]
 }
