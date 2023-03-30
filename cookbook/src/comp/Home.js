@@ -37,7 +37,7 @@ export default function Home() {
               </Link>
               <Link to='/About' className='nav-link'>
                 <i className='fas fa-dollar-sign nav-link-icon'></i>
-                <span className='nav-link-name'>Transaction</span>
+                <span className='nav-link-name'>Profile</span>
               </Link>
             </div>
           </div>
